@@ -19,7 +19,7 @@ function initMap() {
     var message = "<h3>You can get unlimited internet</h3><p> ";
 
    let markersArray = [
-        {location:{lat:-3.5107, lng: 39.9093},content:'<div> <h1>Kilifi</h1> <h3>You can get unlimited internet</h3><p> Mawingu is available in your area,please click the button below to request connection</p></div>'+message},
+        {location:{lat:-3.5107, lng: 39.9093},content: '<div style="text-align:center"> <h3>Kilifi</h3> <h4>You can get unlimited internet</h4><p> Mawingu is available in your area, please click the button below to request connection</p> <a href="#" style="background-color:blue; border-radius:10px; width:300px; line-height:20px; color:white; display:inline-block; text-align:center; text-decoration:none;">Get connected</a></div> '},
 
 
         { location:{lat:-4.1816, lng: 39.4606},content:'<div> <h1>Kwale</h1> <h3>You can get unlimited internet</h3><p> Mawingu is available in your area,please click the button below to request connection</p></div>'},
@@ -111,6 +111,21 @@ function initMap() {
               lng: 34.5583
             },
             content: '<div style="text-align:center"> <h3>Bungoma</h3> <h4>You can get unlimited internet</h4><p> Mawingu is available in your area, please click the button below to request connection</p> <a href="#" style="background-color:blue; border-radius:10px; width:300px; line-height:20px; color:white; display:inline-block; text-align:center; text-decoration:none;">Get connected</a></div> '
+          },
+
+          { 
+            location: {
+              lat: -0.6773,
+              lng: 34.7796
+            },
+            content: '<div style="text-align:center"> <h3>Kisii</h3> <h4>You can get unlimited internet</h4><p> Mawingu is available in your area, please click the button below to request connection</p> <a href="#" style="background-color:blue; border-radius:10px; width:300px; line-height:20px; color:white; display:inline-block; text-align:center; text-decoration:none;">Get connected</a></div> '
+          },
+          { 
+            location: {
+              lat: -1.0707,
+              lng: 34.4753
+            },
+            content: '<div style="text-align:center"> <h3>Migori</h3> <h4>You can get unlimited internet</h4><p> Mawingu is available in your area, please click the button below to request connection</p> <a href="#" style="background-color:blue; border-radius:10px; width:300px; line-height:20px; color:white; display:inline-block; text-align:center; text-decoration:none;">Get connected</a></div> '
           },
           
        
